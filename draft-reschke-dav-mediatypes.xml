@@ -1,0 +1,21 @@
+<rfc version="3" docName="draft-reschke-dav-mediatypes-latest" ipr="trust200902" submissionType="IETF" category="std">
+  <front>
+    <title abbrev="WebDAV Media Types">Internet Media Types for WebDAV Protocol Payloads</title>
+    <author initials="J. F." surname="Reschke" fullname="Julian F. Reschke">
+      <organization abbrev="greenbytes">greenbytes GmbH</organization>
+      <address>
+        <postal>
+          <street>Hafenweg 16</street>
+          <city>M&#xfc;nster</city><code>48155</code>
+          <country>Germany</country>
+        </postal>
+        <email>julian.reschke@greenbytes.de</email>
+        <uri>http://greenbytes.de/tech/webdav/</uri>
+      </address>
+    </author>
+  </front>
+  <middle>
+<section title="Introduction">
+</section>
+  </middle>
+</rfc>
