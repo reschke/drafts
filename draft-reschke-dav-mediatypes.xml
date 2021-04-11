@@ -13,6 +13,23 @@
         <uri>http://greenbytes.de/tech/webdav/</uri>
       </address>
     </author>
+    <note title="Editorial Note" removeInRFC="true">
+      <t>
+        The issues list for this draft can be found at <eref target="https://github.com/reschke/drafts/labels/dav-mediatypes"/>.
+      </t>
+      <t>
+        The most recent (often, unpublished) draft is at <eref target="https://greenbytes.de/tech/webdav/draft-reschke-dav-mediatypes-latest.html"/>.
+      </t>
+      <t>
+        Recent changes are listed at <eref target="https://github.com/reschke/drafts/commits/main/draft-reschke-dav-mediatypes.xml"/>.
+      </t>
+<!--    <t>
+      See also the draft's current status in the IETF datatracker, at https://datatracker.ietf.org/doc/draft-nottingham-link-hint/.
+    </t>-->
+<!--    <t>
+      The changes in this draft are summarized in <xref target="changes.since.10"/>.
+    </t>-->
+  </note>
   </front>
   <middle>
 <section title="Introduction">
