@@ -4,12 +4,27 @@
 
 Network Working Group                                      J. F. Reschke
 Internet-Draft                                                greenbytes
-Intended status: Standards Track                            9 April 2021
-Expires: 11 October 2021
+Intended status: Standards Track                           11 April 2021
+Expires: 13 October 2021
 
 
            Internet Media Types for WebDAV Protocol Payloads
                   draft-reschke-dav-mediatypes-latest
+
+Editorial Note
+
+   This note is to be removed before publishing as an RFC.
+
+   The issues list for this draft can be found at
+   https://github.com/reschke/drafts/labels/dav-mediatypes.
+
+   The most recent (often, unpublished) draft is at
+   https://greenbytes.de/tech/webdav/draft-reschke-dav-mediatypes-
+   latest.html.
+
+   Recent changes are listed at
+   https://github.com/reschke/drafts/commits/main/draft-reschke-dav-
+   mediatypes.xml.
 
 Status of This Memo
 
@@ -26,7 +41,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 October 2021.
+   This Internet-Draft will expire on 13 October 2021.
 
 Copyright Notice
 
