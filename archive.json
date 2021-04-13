@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-04-11T00:31:36.909786+00:00",
+  "timestamp": "2021-04-13T00:30:38.671133+00:00",
   "repo": "reschke/drafts",
   "labels": [
     {
@@ -47,6 +47,11 @@
       "name": "wontfix",
       "description": "This will not be worked on",
       "color": "ffffff"
+    },
+    {
+      "name": "dav-mediatypes",
+      "description": "",
+      "color": "64FB43"
     }
   ],
   "issues": [],
