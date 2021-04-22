@@ -13,6 +13,19 @@
         <uri>http://greenbytes.de/tech/webdav/</uri>
       </address>
     </author>
+    <abstract>
+      <t>
+        WebDAV (RFC 4918, "HTTP Extensions for Web Distributed Authoring and Versioning")
+        and related specifications use XML in HTTP requests and responses, but
+        do not define specific Internet Media Types. This hinders reuse of these
+        formats in other contexts, such as when these formats are negotiated
+        or content is persisted outside a WebDAV protocol flow.
+      </t>
+      <t>
+        This document assigns Internet Media Types to those WebDAV message
+        formats that could be used outside the original protocol context.
+      </t>
+    </abstract>
     <note title="Editorial Note" removeInRFC="true">
       <t>
         The issues list for this draft can be found at <eref target="https://github.com/reschke/drafts/labels/dav-mediatypes"/>.
