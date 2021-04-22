@@ -48,4 +48,31 @@
 <section title="Introduction">
 </section>
   </middle>
+  <back>
+<references>
+  <name>Normative References</name>
+
+<reference anchor="RFC4918">
+  <front>
+    <title>HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV)</title>
+    <author initials="L." surname="Dusseault" fullname="Lisa Dusseault" role="editor"/>
+    <date month="June" year="2007"/>
+  </front>
+  <seriesInfo name="RFC" value="4918"/>
+</reference>
+
+<reference anchor="RFC5323">
+  <front>
+    <title abbrev="WebDAV SEARCH">Web Distributed Authoring and Versioning (WebDAV) SEARCH</title>
+    <author initials="J. F." surname="Reschke" fullname="Julian F. Reschke" role="editor"/>
+  	<author initials="S." surname="Reddy" fullname="Surendra Reddy"/>
+    <author initials="J." surname="Davis" fullname="Jim Davis"/>
+  	<author initials="A." surname="Babich" fullname="Alan Babich"/>
+    <date month="November" year="2008"/>
+  </front>
+  <seriesInfo name="RFC" value="5323"/>
+</reference>
+
+</references>
+  </back>
 </rfc>
