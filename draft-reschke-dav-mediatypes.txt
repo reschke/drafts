@@ -72,12 +72,49 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-   2.  Normative References
+   2.  Internet Media Type Definitions
+     2.1.  application/dav-error+xml
+     2.2.  application/dav-lockdiscovery+xml
+     2.3.  application/dav-propertyupdate+xml
+     2.4.  application/dav-propstat+xml
+     2.5.  application/dav-searchrequest+xml
+   3.  Use Cases
+   4.  IANA Considerations
+   5.  Security Considerations
+   6.  Normative References
    Author's Address
 
 1.  Introduction
 
-2.  Normative References
+
+2.  Internet Media Type Definitions
+
+
+2.1.  application/dav-error+xml
+
+
+2.2.  application/dav-lockdiscovery+xml
+
+
+2.3.  application/dav-propertyupdate+xml
+
+
+2.4.  application/dav-propstat+xml
+
+
+2.5.  application/dav-searchrequest+xml
+
+
+3.  Use Cases
+
+
+4.  IANA Considerations
+
+
+5.  Security Considerations
+
+
+6.  Normative References
 
    [RFC4918]  Dusseault, L., Ed., "HTTP Extensions for Web Distributed
               Authoring and Versioning (WebDAV)", RFC 4918,
