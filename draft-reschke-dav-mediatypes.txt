@@ -75,9 +75,10 @@ Table of Contents
    2.  Internet Media Type Definitions
      2.1.  application/dav-error+xml
      2.2.  application/dav-lockdiscovery+xml
-     2.3.  application/dav-propertyupdate+xml
-     2.4.  application/dav-propstat+xml
-     2.5.  application/dav-searchrequest+xml
+     2.3.  application/dav-multistatus+xml
+     2.4.  application/dav-propertyupdate+xml
+     2.5.  application/dav-propstat+xml
+     2.6.  application/dav-searchrequest+xml
    3.  Use Cases
    4.  IANA Considerations
    5.  Security Considerations
@@ -96,13 +97,16 @@ Table of Contents
 2.2.  application/dav-lockdiscovery+xml
 
 
-2.3.  application/dav-propertyupdate+xml
+2.3.  application/dav-multistatus+xml
 
 
-2.4.  application/dav-propstat+xml
+2.4.  application/dav-propertyupdate+xml
 
 
-2.5.  application/dav-searchrequest+xml
+2.5.  application/dav-propstat+xml
+
+
+2.6.  application/dav-searchrequest+xml
 
 
 3.  Use Cases
