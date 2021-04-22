@@ -72,5 +72,30 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
+   2.  Normative References
+   Author's Address
 
 1.  Introduction
+
+2.  Normative References
+
+   [RFC4918]  Dusseault, L., Ed., "HTTP Extensions for Web Distributed
+              Authoring and Versioning (WebDAV)", RFC 4918,
+              DOI 10.17487/RFC4918, June 2007,
+              <https://www.rfc-editor.org/info/rfc4918>.
+
+   [RFC5323]  Reschke, J. F., Ed., Reddy, S., Davis, J., and A. Babich,
+              "Web Distributed Authoring and Versioning (WebDAV)
+              SEARCH", RFC 5323, DOI 10.17487/RFC5323, November 2008,
+              <https://www.rfc-editor.org/info/rfc5323>.
+
+Author's Address
+
+   Julian F. Reschke
+   greenbytes GmbH
+   Hafenweg 16
+   48155 Münster
+   Germany
+
+   Email: julian.reschke@greenbytes.de
+   URI:   http://greenbytes.de/tech/webdav/
