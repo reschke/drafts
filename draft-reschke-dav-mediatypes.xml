@@ -48,6 +48,34 @@
 
 <section><name>Introduction</name>
 <t>
+  WebDAV ("HTTP Extensions for Web Distributed Authoring and Versioning", <xref target="RFC4918"/>)
+  and related specifications extend HTTP <xref target="RFChttp"/> with methods
+  related to authoring and versioning. Most of these methods use XML <xref target="XML"/>
+  in the contents of requests and responses.
+</t>
+<t>
+  <xref target="RFC4918" section="8.2"/> requires WebDAV components to support
+  the Internet Media Type "application/xml" (and recommends to support "text/html"
+  although deprecated). It does not define more specific types, though. The
+  semantics of request/response contents is inferred either from context (method name) or
+  from the name of the document (root) element.
+</t>
+<t>
+  This approach works fine for the use cases addressed by WebDAV (and this
+  document does not attempt to change this). However, the lack of more
+  specific media types hinders use of these XML formats outside their original
+  use cases. For instance:
+</t>
+<ul>
+  <li>Identifying formats outside their original WebDAV uses cases, such
+  as for payloads of the HTTP PATCH method <xref target="RFC5789"/>.</li>
+  <li>Promoting contents from WebDAV messages to "real" HTTP resources (retrievable by GET).</li>
+  <li>Annotating Web links <xref target="RFC8288"/> with type information.</li>
+</ul>
+</section>
+
+<section><name>Deployment Considerations</name>
+<t>
 </t>
 </section>
 
@@ -126,6 +154,63 @@
     <date month="November" year="2008"/>
   </front>
   <seriesInfo name="RFC" value="5323"/>
+</reference>
+
+<reference anchor="RFC5789">
+  <front>
+    <title>PATCH Method for HTTP</title>
+    <author initials="L.M." surname="Dusseault" fullname="Lisa Dusseault"/>
+    <author initials="J.M." surname="Snell" fullname="James M. Snell"/>
+    <date month="March" year="2010"/>
+  </front>
+  <seriesInfo name="RFC" value="5789"/>
+</reference>
+
+<reference anchor="RFC7303">
+  <front>
+    <title>XML Media Types</title>
+    <author initials="H." surname="Thompson" fullname="Henry Thompson"/>
+    <author initials="C." surname="Lilley" fullname="Chris Lilley"/>
+    <date year="2014" month="July"/>
+  </front>
+  <seriesInfo name="RFC" value="7303"/>
+</reference>
+
+<reference anchor="RFC8288">
+  <front>
+    <title>Web Linking</title>
+    <author initials="M." surname="Nottingham" fullname="M. Nottingham"/>
+    <date year="2017" month="October"/>
+  </front>
+  <seriesInfo name="RFC" value="8288"/>
+</reference>
+
+<reference anchor="RFChttp">
+  <front>
+    <title>HTTP Semantics</title>
+    <author fullname="Roy T. Fielding" initials="R." surname="Fielding" role="editor"/>
+    <author fullname="Mark Nottingham" initials="M." surname="Nottingham" role="editor"/>
+    <author fullname="Julian Reschke" initials="J." surname="Reschke" role="editor"/>
+    <date year="2021" month="March" day="30"/>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-semantics-15"/>
+</reference>
+
+<reference anchor='XML' target='http://www.w3.org/TR/2008/REC-xml-20081126/'>
+  <front>
+    <title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</title>
+    <author fullname='Tim Bray' surname='Bray' initials='T.'/>
+    <author fullname='Jean Paoli' surname='Paoli' initials='J.'/>
+    <author fullname='C. Michael Sperberg-McQueen' surname='Sperberg-McQueen' initials='C.'/>
+    <author fullname='Eve Maler' surname='Maler' initials='E.'/>
+    <author fullname='Francois Yergeau' surname='Yergeau' initials='F.'/>
+    <date year='2008' month='November' day='26'/>
+  </front>
+  <seriesInfo name='W3C Recommendation' value='REC-xml-20081126'/>
+  <annotation>
+    Latest version available at
+    <eref target='http://www.w3.org/TR/xml'/>.
+  </annotation>
 </reference>
 
 </references>
