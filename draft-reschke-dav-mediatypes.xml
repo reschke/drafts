@@ -65,6 +65,11 @@
 </t>
 </section>
 
+<section><name>application/dav-multistatus+xml</name>
+<t>
+</t>
+</section>
+
 <section><name>application/dav-propertyupdate+xml</name>
 <t>
 </t>
