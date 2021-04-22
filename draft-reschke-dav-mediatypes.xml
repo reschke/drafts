@@ -45,8 +45,68 @@
   </note>
   </front>
   <middle>
-<section title="Introduction">
+
+<section>
+  <name>Introduction</name>
+  <t>
+  </t>
 </section>
+
+<section>
+  <name>Internet Media Type Definitions</name>
+  <t>
+  </t>
+
+<section>
+  <name>application/dav-error+xml</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>application/dav-lockdiscovery+xml</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>application/dav-propertyupdate+xml</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>application/dav-propstat+xml</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>application/dav-searchrequest+xml</name>
+  <t>
+  </t>
+</section>
+
+</section>
+
+<section>
+  <name>Use Cases</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>IANA Considerations</name>
+  <t>
+  </t>
+</section>
+
+<section>
+  <name>Security Considerations</name>
+  <t>
+  </t>
+</section>
+
   </middle>
   <back>
 <references>
