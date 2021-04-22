@@ -4,12 +4,24 @@
 
 Network Working Group                                      J. F. Reschke
 Internet-Draft                                                greenbytes
-Intended status: Standards Track                           11 April 2021
-Expires: 13 October 2021
+Intended status: Standards Track                           22 April 2021
+Expires: 24 October 2021
 
 
            Internet Media Types for WebDAV Protocol Payloads
                   draft-reschke-dav-mediatypes-latest
+
+Abstract
+
+   WebDAV (RFC 4918, "HTTP Extensions for Web Distributed Authoring and
+   Versioning") and related specifications use XML in HTTP requests and
+   responses, but do not define specific Internet Media Types.  This
+   hinders reuse of these formats in other contexts, such as when these
+   formats are negotiated or content is persisted outside a WebDAV
+   protocol flow.
+
+   This document assigns Internet Media Types to those WebDAV message
+   formats that could be used outside the original protocol context.
 
 Editorial Note
 
@@ -41,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 13 October 2021.
+   This Internet-Draft will expire on 24 October 2021.
 
 Copyright Notice
 
