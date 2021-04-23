@@ -82,6 +82,7 @@ Table of Contents
      3.6.  application/dav-searchrequest+xml
    4.  Use Cases
    5.  IANA Considerations
+     5.1.  application/dav-searchrequest+xml
    6.  Security Considerations
    7.  Normative References
    Author's Address
@@ -151,6 +152,49 @@ Table of Contents
 
 5.  IANA Considerations
 
+   Please register the media types below in "Media Types" registry at
+   https://www.iana.org/assignments/media-types as per [RFC6838].
+
+5.1.  application/dav-searchrequest+xml
+
+   Type name:  application
+
+   Subtype name:  dav-searchrequest+xml
+
+   Required parameters:  none
+
+   Optional parameters:  "charset": see Section 3 of [RFC7303]
+
+   Encoding considerations:  see Section 9.1 of [RFC7303]
+
+   Security considerations:  see Section 10 of [RFC7303]
+
+   Interoperability considerations:  N/A
+
+   Published specification:  This specification (Section 3.6).
+
+   Applications that use this media type:  N/A
+
+   Fragment identifier considerations:  see Section 5 of [RFC7303]
+
+   Additional information:  Magic number(s):  N/A
+
+                            Deprecated alias names for this type:  N/A
+
+                            File extension(s):  N/A
+
+                            Macintosh file type code(s):  N/A
+
+   Person and email address to contact for further information:  See "Au
+      thors' Address" section.
+
+   Intended usage:  COMMON
+
+   Restrictions on usage:  N/A
+
+   Author:  See "Authors' Address" section.
+
+   Change controller:  IESG
 
 6.  Security Considerations
 
