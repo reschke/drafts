@@ -176,6 +176,18 @@
   <seriesInfo name="RFC" value="5789"/>
 </reference>
 
+<reference anchor="RFC6838">
+  <front>
+    <title>Media Type Specifications and Registration Procedures</title>
+    <author initials="N." surname="Freed" fullname="N. Freed"/>
+    <author initials="J." surname="Klensin" fullname="J. Klensin"/>
+    <author initials="T." surname="Hansen" fullname="T. Hansen"/>
+    <date year="2013" month="January"/>
+  </front>
+  <seriesInfo name="BCP" value="13"/>
+  <seriesInfo name="RFC" value="6838"/>
+</reference>
+
 <reference anchor="RFC7303">
   <front>
     <title>XML Media Types</title>
@@ -206,20 +218,20 @@
   <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-semantics-15"/>
 </reference>
 
-<reference anchor='XML' target='http://www.w3.org/TR/2008/REC-xml-20081126/'>
+<reference anchor="XML" target="http://www.w3.org/TR/2008/REC-xml-20081126/">
   <front>
     <title>Extensible Markup Language (XML) 1.0 (Fifth Edition)</title>
-    <author fullname='Tim Bray' surname='Bray' initials='T.'/>
-    <author fullname='Jean Paoli' surname='Paoli' initials='J.'/>
-    <author fullname='C. Michael Sperberg-McQueen' surname='Sperberg-McQueen' initials='C.'/>
-    <author fullname='Eve Maler' surname='Maler' initials='E.'/>
-    <author fullname='Francois Yergeau' surname='Yergeau' initials='F.'/>
-    <date year='2008' month='November' day='26'/>
+    <author fullname="Tim Bray" surname="Bray" initials="T."/>
+    <author fullname="Jean Paoli" surname="Paoli" initials="J."/>
+    <author fullname="C. Michael Sperberg-McQueen" surname="Sperberg-McQueen" initials="C."/>
+    <author fullname="Eve Maler" surname="Maler" initials="E."/>
+    <author fullname="Francois Yergeau" surname="Yergeau" initials="F."/>
+    <date year="2008" month="November" day="26"/>
   </front>
-  <seriesInfo name='W3C Recommendation' value='REC-xml-20081126'/>
+  <seriesInfo name="W3C Recommendation" value="REC-xml-20081126"/>
   <annotation>
     Latest version available at
-    <eref target='http://www.w3.org/TR/xml'/>.
+    <eref target="http://www.w3.org/TR/xml"/>.
   </annotation>
 </reference>
 
