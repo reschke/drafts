@@ -55,7 +55,7 @@
 </t>
 <t>
   <xref target="RFC4918" section="8.2"/> requires WebDAV components to support
-  the Internet Media Type "application/xml" (and recommends to support "text/html"
+  the Internet Media Type <xref target="RFC2046"/> "application/xml" (and recommends to support "text/html"
   although deprecated). It does not define more specific types, though. The
   semantics of request/response contents is inferred either from context (method name) or
   from the name of the document (root) element.
@@ -134,6 +134,16 @@
   <back>
 <references>
   <name>Normative References</name>
+
+<reference anchor="RFC2046">
+  <front>
+    <title abbrev="Media Types">Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types</title>
+    <author initials="N." surname="Freed" fullname="Ned Freed"/>
+    <author initials="N." surname="Borenstein" fullname="Nathaniel S. Borenstein"/>
+    <date month="November" year="1996"/>
+  </front>
+  <seriesInfo name="RFC" value="2046"/>
+</reference>
 
 <reference anchor="RFC4918">
   <front>
