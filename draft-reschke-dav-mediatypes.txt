@@ -4,8 +4,8 @@
 
 Network Working Group                                      J. F. Reschke
 Internet-Draft                                                greenbytes
-Intended status: Standards Track                           22 April 2021
-Expires: 24 October 2021
+Intended status: Standards Track                           23 April 2021
+Expires: 25 October 2021
 
 
            Internet Media Types for WebDAV Protocol Payloads
@@ -53,7 +53,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 October 2021.
+   This Internet-Draft will expire on 25 October 2021.
 
 Copyright Notice
 
@@ -95,10 +95,10 @@ Table of Contents
    responses.
 
    Section 8.2 of [RFC4918] requires WebDAV components to support the
-   Internet Media Type "application/xml" (and recommends to support
-   "text/html" although deprecated).  It does not define more specific
-   types, though.  The semantics of request/response contents is
-   inferred either from context (method name) or from the name of the
+   Internet Media Type [RFC2046] "application/xml" (and recommends to
+   support "text/html" although deprecated).  It does not define more
+   specific types, though.  The semantics of request/response contents
+   is inferred either from context (method name) or from the name of the
    document (root) element.
 
    This approach works fine for the use cases addressed by WebDAV (and
@@ -148,6 +148,11 @@ Table of Contents
 
 
 7.  Normative References
+
+   [RFC2046]  Freed, N. and N. Borenstein, "Multipurpose Internet Mail
+              Extensions (MIME) Part Two: Media Types", RFC 2046,
+              DOI 10.17487/RFC2046, November 1996,
+              <https://www.rfc-editor.org/info/rfc2046>.
 
    [RFC4918]  Dusseault, L., Ed., "HTTP Extensions for Web Distributed
               Authoring and Versioning (WebDAV)", RFC 4918,
