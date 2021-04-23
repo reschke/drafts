@@ -108,7 +108,7 @@
 </t>
 </section>
 
-<section><name>application/dav-searchrequest+xml</name>
+<section anchor="dav-searchrequest"><name>application/dav-searchrequest+xml</name>
 <t>
   This type is defined as request payload for the WebDAV SEARCH method
   (<xref target="RFC5323" section="2"/>). It uses a document (root)
@@ -129,9 +129,61 @@
 </t>
 </section>
 
-<section><name>IANA Considerations</name>
+<section anchor="iana.considerations"><name>IANA Considerations</name>
 <t>
+  Please register the media types below in "Media Types" registry at
+  <eref target="https://www.iana.org/assignments/media-types"/> as per
+  <xref target="RFC6838"/>.
 </t>
+
+<section><name>application/dav-searchrequest+xml</name>
+<dl>
+  <dt>Type name:</dt>
+  <dd>application</dd>
+  <dt>Subtype name:</dt>
+  <dd>dav-searchrequest+xml</dd>
+  <dt>Required parameters:</dt>
+  <dd>none</dd>
+  <dt>Optional parameters:</dt>
+  <dd>"charset": see <xref target="RFC7303" section="3"/></dd>
+  <dt>Encoding considerations:</dt>
+  <dd>see <xref target="RFC7303" section="9.1"/></dd>
+  <dt>Security considerations:</dt>
+  <dd>see <xref target="RFC7303" section="10"/></dd>
+  <dt>Interoperability considerations:</dt>
+  <dd>N/A</dd>
+  <dt>Published specification:</dt>
+  <dd>This specification (<xref target="dav-searchrequest"/>).</dd>
+  <dt>Applications that use this media type:</dt>
+  <dd>N/A</dd>
+  <dt>Fragment identifier considerations:</dt>
+  <dd>see <xref target="RFC7303" section="5"/></dd>
+  <dt>Additional information:</dt>
+  <dd>
+    <dl>
+      <dt>Magic number(s):</dt>
+      <dd>N/A</dd>
+      <dt>Deprecated alias names for this type:</dt>
+      <dd>N/A</dd>
+      <dt>File extension(s):</dt>
+      <dd>N/A</dd>
+      <dt>Macintosh file type code(s):</dt>
+      <dd>N/A</dd>
+    </dl>
+  </dd>
+  <dt>Person and email address to contact for further information:</dt>
+  <dd>See "Authors' Address" section.</dd>
+  <dt>Intended usage:</dt>
+  <dd>COMMON</dd>
+  <dt>Restrictions on usage:</dt>
+  <dd>N/A</dd>
+  <dt>Author:</dt>
+  <dd>See "Authors' Address" section.</dd>
+  <dt>Change controller:</dt>
+  <dd>IESG</dd>
+</dl>
+</section>
+
 </section>
 
 <section><name>Security Considerations</name>
