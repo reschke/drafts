@@ -110,6 +110,15 @@
 
 <section><name>application/dav-searchrequest+xml</name>
 <t>
+  This type is defined as request payload for the WebDAV SEARCH method
+  (<xref target="RFC5323" section="2"/>). It uses a document (root)
+  element "searchrequest" (in the "DAV:" namespace), wrapping a child element
+  identifying the actual query (which can use different grammars, but
+  that specification only defines "basicsearch").
+</t>
+<t>
+  The more specific media type could be used for content negotiation with
+  SEARCH, once revised as proposed in <xref target="SAFEMWB"/>.
 </t>
 </section>
 
@@ -233,6 +242,17 @@
     Latest version available at
     <eref target="http://www.w3.org/TR/xml"/>.
   </annotation>
+</reference>
+
+<reference anchor="SAFEMWB">
+  <front>
+    <title>HTTP SEARCH Method</title>
+    <author initials="J." surname="Reschke" fullname="Julian Reschke"/>
+    <author initials="A." surname="Malhotra" fullname="Ashok Malhotra"/>
+    <author initials="J.M." surname="Snell" fullname="James M Snell"/>
+    <date year="2021" month="March" day="31"/>
+  </front>
+  <seriesInfo name="Internet-Draft" value="draft-ietf-httpbis-safe-method-w-body-00"/>
 </reference>
 
 </references>
