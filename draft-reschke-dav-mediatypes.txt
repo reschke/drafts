@@ -137,6 +137,14 @@ Table of Contents
 
 3.6.  application/dav-searchrequest+xml
 
+   This type is defined as request payload for the WebDAV SEARCH method
+   (Section 2 of [RFC5323]).  It uses a document (root) element
+   "searchrequest" (in the "DAV:" namespace), wrapping a child element
+   identifying the actual query (which can use different grammars, but
+   that specification only defines "basicsearch").
+
+   The more specific media type could be used for content negotiation
+   with SEARCH, once revised as proposed in [SAFEMWB].
 
 4.  Use Cases
 
@@ -193,6 +201,12 @@ Table of Contents
               November 2008,
               <http://www.w3.org/TR/2008/REC-xml-20081126/>.  Latest
               version available at http://www.w3.org/TR/xml.
+
+   [SAFEMWB]  Reschke, J., Malhotra, A., and J.M. Snell, "HTTP SEARCH
+              Method", Work in Progress, Internet-Draft, draft-ietf-
+              httpbis-safe-method-w-body-00, 31 March 2021,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-
+              safe-method-w-body-00.txt>.
 
 Author's Address
 
